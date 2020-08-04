@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Madison Beer",
+        "image":,
+        "username":"madisonbeer",
+        "followers": "11.4 Million"
+    },
+    {
+        "id": 2,
+        "name": "LARRAY",
+        "image":,
+        "username": "larrayeeee",
+        "followers": " 12.8 Million"
+    },
+    {
+        "id": 3,
+        "name": "Nikita Dragun",
+        "image": "",
+        "username":"Nikita Dragun",
+        "followers": "6 Million"
+    },
+    {
+        "id": 4,
+        "name": "Sterg Dikos",
+        "image":,
+        "username": "stergdikos",
+        "followers": "75 Thousand"
+    },
+    {
+        "id": 5,
+        "name": "Will Smith",
+        "image":,
+        "username": "willsmith",
+        "followers": "32.8 Million"
+    },
+    {
+        "id": 6,
+        "name": "Charli d'amelio",
+        "image":,
+        "username": "charlidamelio",
+        "followers": "76.1 Million"
+    }
+]
