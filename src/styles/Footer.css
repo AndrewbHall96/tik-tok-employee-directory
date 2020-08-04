@@ -1,0 +1,14 @@
+.card-header {
+    background: black;
+    color: white;
+    font-weight: 900;
+    font-size: xx-large;
+}
+.row {
+    background: black;
+}
+.col {
+    color: white;
+    font-weight: 800;
+    font-size: small;
+}

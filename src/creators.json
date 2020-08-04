@@ -1,15 +1,22 @@
 [
     {
+        "id": 0,
+        "name": "Gregory James",
+        "image": "",
+        "username":"GREGtube",
+        "followers": "1.1 Million"
+    },
+    {
         "id": 1,
         "name": "Madison Beer",
-        "image":,
+        "image": "https://p16-va-tiktok.ibyteimg.com/img/musically-maliva-obj/ea8f09c20d545b6380b2b343a217ca59~c5_720x720.jpeg",
         "username":"madisonbeer",
         "followers": "11.4 Million"
     },
     {
         "id": 2,
         "name": "LARRAY",
-        "image":,
+        "image": "",
         "username": "larrayeeee",
         "followers": " 12.8 Million"
     },
@@ -23,21 +30,21 @@
     {
         "id": 4,
         "name": "Sterg Dikos",
-        "image":,
+        "image": "",
         "username": "stergdikos",
         "followers": "75 Thousand"
     },
     {
         "id": 5,
         "name": "Will Smith",
-        "image":,
+        "image": "",
         "username": "willsmith",
         "followers": "32.8 Million"
     },
     {
         "id": 6,
         "name": "Charli d'amelio",
-        "image":,
+        "image": "",
         "username": "charlidamelio",
         "followers": "76.1 Million"
     }
