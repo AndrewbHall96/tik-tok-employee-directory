@@ -3,63 +3,72 @@
         "id": 0,
         "name": "Gregory James",
         "image": "https://p16-va-tiktok.ibyteimg.com/img/musically-maliva-obj/1664112562480133~c5_720x720.jpeg",
-        "username":"GREGtube",
-        "followers": "1.1 Million"
+        "username":"@GREGtube",
+        "followers": " 1.1 Million",
+        "category": " Comedy"
     },
     {
         "id": 1,
         "name": "Madison Beer",
         "image": "https://p16-va-tiktok.ibyteimg.com/img/musically-maliva-obj/ea8f09c20d545b6380b2b343a217ca59~c5_720x720.jpeg",
-        "username":"madisonbeer",
-        "followers": "11.4 Million"
+        "username":"@madisonbeer",
+        "followers": " 11.4 Million",
+        "category": " Fashion, Beauty"
     },
     {
         "id": 2,
         "name": "LARRAY",
         "image": "https://p16-va-tiktok.ibyteimg.com/img/musically-maliva-obj/e2ef604ed6b1a4358ffda9c03192e88b~c5_720x720.jpeg",
-        "username": "larrayeeee",
-        "followers": " 12.8 Million"
+        "username": "@larrayeeee",
+        "followers": " 12.8 Million",
+        "category": " Comedy"
     },
     {
         "id": 3,
         "name": "Nikita Dragun",
         "image": "https://p16-va-tiktok.ibyteimg.com/img/musically-maliva-obj/1665951071328262~c5_720x720.jpeg",
-        "username":"Nikita Dragun",
-        "followers": "6 Million"
+        "username":"@nikitadragun",
+        "followers": " 6 Million",
+        "category": " Beauty"
     },
     {
         "id": 4,
         "name": "Sterg Dikos",
         "image": "https://p16-va-tiktok.ibyteimg.com/img/musically-maliva-obj/4d3e8dbb47b4734087e63cd28e0c9893~c5_720x720.jpeg",
-        "username": "stergdikos",
-        "followers": "75 Thousand"
+        "username": "@stergdikos",
+        "followers": " 75 Thousand",
+        "category": " Comedy, Music"
     },
     {
         "id": 5,
         "name": "Will Smith",
         "image": "https://p16-va-tiktok.ibyteimg.com/img/musically-maliva-obj/1646315618666501~c5_720x720.jpeg",
-        "username": "willsmith",
-        "followers": "32.8 Million"
+        "username": "@willsmith",
+        "followers": " 32.8 Million",
+        "category": " Music"
     },
     {
         "id": 6,
         "name": "Charli d'amelio",
         "image": "https://p16-va-tiktok.ibyteimg.com/img/musically-maliva-obj/0a0242e5f906bf9301f859c568b5ecc4~c5_720x720.jpeg",
-        "username": "charlidamelio",
-        "followers": "76.1 Million"
+        "username": "@charlidamelio",
+        "followers": " 76.1 Million",
+        "category": " Dance"
     },
     {
         "id": 7,
         "name": "Josh Richards",
         "image": "https://p16-va-tiktok.ibyteimg.com/img/musically-maliva-obj/f7adabc89e2e779b95cf2a080b4f5977~c5_720x720.jpeg",
-        "username": "joshrichards",
-        "followers": "20 Million"
+        "username": "@joshrichards",
+        "followers": " 20 Million",
+        "category": " Fashion, Beauty"
     },
     {
         "id": 8,
         "name": "Avani Gregg",
         "image": "https://p16-va-tiktok.ibyteimg.com/img/musically-maliva-obj/25c44403a5529084d8222363bd1626ec~c5_720x720.jpeg",
-        "username": "avani",
-        "followers": "23.3 Million"
+        "username": "@avani",
+        "followers": " 23.3 Million",
+        "category": " Beauty, Makeup"
     }
 ]

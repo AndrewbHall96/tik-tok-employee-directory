@@ -16,6 +16,7 @@ function CreatorCard(props) {
                         <ListGroup.Item><strong>Name:</strong> {props.name}</ListGroup.Item>
                         <ListGroup.Item><strong>Username:</strong> {props.username}</ListGroup.Item>
                         <ListGroup.Item><strong>Followers:</strong>{props.followers}</ListGroup.Item>
+                        <ListGroup.Item><strong>Category:</strong>{props.category}</ListGroup.Item>
                     </ListGroup>
                 </Card.Text>
                 <Button variant="primary">Go somewhere</Button>
