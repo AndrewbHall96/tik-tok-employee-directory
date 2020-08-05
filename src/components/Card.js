@@ -8,15 +8,15 @@ function CreatorCard(props) {
     return (
 
         <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={props.image} alt={props.name} />
+            <Card.Img variant="top" src={props.creator.image} alt={props.creator.name} />
             <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>
                     <ListGroup>
-                        <ListGroup.Item><strong>Name:</strong> {props.name}</ListGroup.Item>
-                        <ListGroup.Item><strong>Username:</strong> {props.username}</ListGroup.Item>
-                        <ListGroup.Item><strong>Followers:</strong>{props.followers}</ListGroup.Item>
-                        <ListGroup.Item><strong>Category:</strong>{props.category}</ListGroup.Item>
+                        <ListGroup.Item><strong>Name:</strong> {props.creator.name}</ListGroup.Item>
+                        <ListGroup.Item><strong>Username:</strong> {props.creator.username}</ListGroup.Item>
+                        <ListGroup.Item><strong>Followers:</strong>{props.creator.followers}</ListGroup.Item>
+                        <ListGroup.Item><strong>Category:</strong>{props.creator.category}</ListGroup.Item>
                     </ListGroup>
                 </Card.Text>
                 <Button variant="primary">Go somewhere</Button>
