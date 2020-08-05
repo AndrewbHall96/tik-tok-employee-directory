@@ -8,6 +8,8 @@ import CardDeck from 'react-bootstrap/CardDeck';
 import Container from 'react-bootstrap/Container';
 
 
+
+
 function App() {
 
   // future reference this is how we'd update our array
@@ -16,12 +18,22 @@ function App() {
 
 // importing creators from the json. #Hooks
     const [creatorsList, setCreatorsList] = useState(creators);
+    const handleonChange = (event) => {
+      setCreatorsList(creators.filter(c => c.name.includes(event.target.value)))
+    }
+    // const [search, setSearch] = useState("")
   
+    // const filteredCreators = creatorsList.filter (creator => {
+    //   return creator.name.toLowerCase().includes (search.toLowerCase())
+    // })
 
   return (
     <>
       <Navbar />
       <Jumbotron />
+      <input type="text" onChange={handleonChange}/>
+                {/* <button className="btn btn-primary btn-lg" role="button" onClick="searchCreators()">Learn more</button> */}
+
       <Container>
       <CardDeck className="py-5"> {
         creatorsList.map((creator, index) => {
