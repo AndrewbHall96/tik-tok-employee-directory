@@ -7,10 +7,9 @@ import Button from 'react-bootstrap/Button'
 function CreatorCard(props) {
     return (
 
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '18rem'}}>
             <Card.Img variant="top" src={props.creator.image} alt={props.creator.name} />
             <Card.Body>
-                <Card.Title>Card Title</Card.Title>
                 <Card.Text>
                     <ListGroup>
                         <ListGroup.Item><strong>Name:</strong> {props.creator.name}</ListGroup.Item>
@@ -19,7 +18,7 @@ function CreatorCard(props) {
                         <ListGroup.Item><strong>Category:</strong>{props.creator.category}</ListGroup.Item>
                     </ListGroup>
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <Button variant="primary">TikTok profile</Button>
             </Card.Body>
         </Card>
 

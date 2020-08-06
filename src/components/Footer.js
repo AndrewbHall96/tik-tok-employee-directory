@@ -7,7 +7,7 @@ function Footer() {
             <div className="card-header">
                 TikTok
             </div>
-            <div className="container">
+            <div>
                 <div className="row">
                     <div className="col">
                         company

@@ -12,3 +12,8 @@
     font-weight: 800;
     font-size: small;
 }
+
+.card-footer {
+    background: black;
+    color: white
+}

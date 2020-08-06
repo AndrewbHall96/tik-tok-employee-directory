@@ -4,6 +4,15 @@
 
 .display-4 {
     color: black;
+    text-align: center;
+    font-weight: 900;
+}
+
+.lead {
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+
 }
 .lead {
     color: black;

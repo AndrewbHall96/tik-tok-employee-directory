@@ -23,7 +23,7 @@ function App() {
     const handleonChange = (event) => { console.log(creators.filter(creator =>creator.name.toLowerCase().includes(event.target.value)))
       console.log(event.target.value)
       console.log(creatorsList)
-      setCreatorsList(creatorsList.filter(creator => creator.name.toLowerCase().includes(event.target.value)))
+      setCreatorsList(creators.filter(creator => creator.name.toLowerCase().includes(event.target.value)))
     }
     // const [search, setSearch] = useState("")
   
@@ -35,9 +35,10 @@ function App() {
     <>
       <Navbar />
       <Jumbotron />
-      <input type="text" onChange={handleonChange}/>
+      <Container>
+      <h3>Enter name:</h3><input className="input" placeholder="Search Creators" type="text" onChange={handleonChange}/>
                 {/* <button className="btn btn-primary btn-lg" role="button" onClick="searchCreators()">Learn more</button> */}
-
+                </Container>
       <Container>
       <CardDeck className="py-5"> {
         creatorsList.map((creator, index) => {
