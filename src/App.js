@@ -17,9 +17,13 @@ function App() {
 
 
 // importing creators from the json. #Hooks
+
     const [creatorsList, setCreatorsList] = useState(creators);
-    const handleonChange = (event) => {
-      setCreatorsList(creators.filter(c => c.name.includes(event.target.value)))
+
+    const handleonChange = (event) => { console.log(creators.filter(creator =>creator.name.toLowerCase().includes(event.target.value)))
+      console.log(event.target.value)
+      console.log(creatorsList)
+      setCreatorsList(creatorsList.filter(creator => creator.name.toLowerCase().includes(event.target.value)))
     }
     // const [search, setSearch] = useState("")
   
